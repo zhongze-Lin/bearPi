@@ -1,0 +1,114 @@
+{
+    "compiler": {
+        "type": "GCC",
+        "prefix": "arm-none-eabi",
+        "path": "D:\\soft\\LiteOS Studio\\resources\\arm-none-eabi\\bin",
+        "make": {
+            "path": "D:\\soft\\LiteOS Studio\\resources\\msys\\1.0\\bin\\make.exe",
+            "script": "targets\\STM32L431_BearPi\\GCC\\Makefile",
+            "args": null
+        },
+        "gcc": {
+            "path": null,
+            "optimze": "O2",
+            "cfiles": null,
+            "define": null,
+            "include": null,
+            "strictC": false,
+            "timeOptimize": false,
+            "C99Mode": true,
+            "ElfPerFunc": false,
+            "args": null
+        },
+        "asm": {
+            "path": null,
+            "asmfiles": null,
+            "define": null,
+            "include": null,
+            "args": null,
+            "readOnly": false,
+            "readWrite": false,
+            "thumbMode": false
+        },
+        "linker": {
+            "path": null,
+            "robase": "0x08000000",
+            "rwbase": "0x20000000",
+            "script": null,
+            "args": null
+        },
+        "gdbPath": "D:\\soft\\LiteOS Studio\\resources\\arm-none-eabi\\bin"
+    },
+    "general": {
+        "projectName": "BearPi_LiteOS_E53_SF1",
+        "description": null,
+        "activeFilePath": "/arch/arm/arm-m/cortex-m4/Makefile"
+    },
+    "output": {
+        "name": "",
+        "path": ".\\",
+        "files": [
+            "bin",
+            "map",
+            "elf"
+        ],
+        "assmableFile": "",
+        "delineCodeFile": "",
+        "pwd": "D:\\file\\courseware\\three_2\\03 案例及代码\\04_E53_SF1_智慧烟感\\BearPi_LiteOS_E53_SF1\\targets\\STM32L431_BearPi\\GCC"
+    },
+    "target": {
+        "UUID": "2efd407e-72da-46f6-9483-a7a785af7fe7",
+        "flag": "0",
+        "factory": "ST",
+        "boardName": "STM32L431RC",
+        "productNumber": "STM32L431RC",
+        "core": "Cortex-M4",
+        "numberCores": 1,
+        "flashSize": "256KB",
+        "romAddress": "0x8000000",
+        "ramSize": "64KB",
+        "ramAddress": "0x20000000",
+        "restartAddress": "",
+        "featuresAddress": "https://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-ultra-low-power-mcus/stm32l4-series/stm32l4x1/stm32l431rc.html#samplebuy-scroll",
+        "dataSheetAddress": "https://www.st.com/resource/en/datasheet/stm32l431rc.pdf",
+        "_highlight": true
+    },
+    "debugger": {
+        "type": "OpenOCD",
+        "jlink": {
+            "path": "D:\\soft\\LiteOS Studio\\resources\\app\\bin\\openocd-0.10.0\\bin-x64",
+            "port": "USB",
+            "speed": 8000,
+            "interface": "SWD"
+        },
+        "interface": "SWD",
+        "gdbServerPort": "3333",
+        "initType": "reset",
+        "initFile": ".icode\\openocd.gdbinit",
+        "customFile": ".icode\\default.gdbinit",
+        "compilePath": null,
+        "gdbPath": "D:\\soft\\LiteOS Studio\\resources\\arm-none-eabi\\bin"
+    },
+    "burner": {
+        "type": "OpenOCD",
+        "speed": "8000",
+        "interface": "SWD",
+        "flashAddress": "",
+        "loadAddress": "0x08000000",
+        "path": "D:\\soft\\LiteOS Studio\\resources\\app\\bin\\openocd-0.10.0\\bin-x64",
+        "erase": true,
+        "check": true,
+        "romsize": null
+    },
+    "serialPort": {
+        "port": "",
+        "baudRate": "115200",
+        "dataBit": 8,
+        "stopBit": 1,
+        "parity": "None",
+        "flowControl": "None",
+        "logPath": "D:\\file\\courseware\\three_2\\PROGRAM\\logs",
+        "autoSave": false
+    },
+    "version": "0.3.1"
+}

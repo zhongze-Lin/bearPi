@@ -1,0 +1,21 @@
+{
+    "openFiles": [
+        {
+            "file": {
+                "name": "Makefile",
+                "size": 21,
+                "path": "arch\\arm\\arm-m\\cortex-m4\\Makefile",
+                "fileExtension": "",
+                "isFolder": false,
+                "isOpen": false,
+                "level": 6,
+                "parentPath": "D:\\file\\courseware\\three_2\\03 案例及代码\\04_E53_SF1_智慧烟感\\BearPi_LiteOS_E53_SF1\\arch\\arm\\arm-m\\cortex-m4"
+            },
+            "currentShow": false,
+            "isPreview": false,
+            "isChange": false
+        }
+    ],
+    "previewName": "arch\\arm\\arm-m\\cortex-m4\\Makefile",
+    "currentShowName": "arch\\arm\\arm-m\\cortex-m4\\Makefile"
+}
